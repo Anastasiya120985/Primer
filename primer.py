@@ -1,4 +1,7 @@
 print('Hello world!')
-a = 2
-b = 2
-print(f'{a} + {b} = {a+b}')
+
+
+def hello(a, b):
+    return f'{a} + {b} = {a+b}'
+
+print(hello(2, 2))
