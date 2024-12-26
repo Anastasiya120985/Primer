@@ -1,7 +1,5 @@
 print('Hello world!')
 
-
-def hello(a, b):
-    return f'{a} + {b} = {a+b}'
-
-print(hello(2, 2))
+def hello(name, surname):
+    return f'{name} {surname}'
+print(hello(name='pavel', surname='volkov'))
